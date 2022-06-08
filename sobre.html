@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+  <script src="script.js"></script>
+  <div class="w3-sidebar w3-bar-block w3-collapse w3-card w3-animate-left w3-brown" style="width:200px;" id="mySidebar">
+  <button class="w3-bar-item w3-button w3-large w3-hide-large" onclick="w3_close()">Fechar &times;</button>
+  <a href="/entrar.html" class="w3-bar-item w3-button">Entrar</a>
+  <a href="/cadastrar.html" class="w3-bar-item w3-button">Cadastrar</a>
+  <a href="/sobre.html" class="w3-bar-item w3-button">Sobre</a>
+</div>
+
+<div class="w3-main" style="margin-left:200px">
+<div class="w3-pink">
+  <button class=" w3-pink w3-button w3-xlarge w3-hide-large" onclick="w3_open()">&#9776;</button>
+  <a href="/index.html"><button class="w3-xlarge w3-button">Home</button></a>
+</div>
+  
+  <div class="w3-row">
+  <div class="w3-col l3 m2 s2 w3-center">
+    <p></p>
+  </div>
+  <div class="w3-col l6 m8 s8 w3-center">
+    <div class="w3-container w3-mobile w3-bottombar w3-border-white margin2 w3-hover-shadow w3-round-large w3-brown">
+          <h1 class="p1" style="font-size:5vw">Quem somos nós?</h1>
+        </div>
+      <div class="w3-container w3-mobile margin2 w3-hover-shadow w3-round-large w3-brown">
+      <p class="p2" style="font-size:3vw">Iniciamos esta organização não governamental para darmos apoio às refugiadas ucranianas e seus filhos, que deixaram seu país e sua família em busca de algum lugar mais seguro e agora necessitam de um lar até os conflitos acabarem.</p>
+    </div>
+  </div>
+    <div class="w3-col l3 m2 s2 w3-center">
+      <p></p>
+  </div>
+</div>
+</div>
+   
+</div>
+
+<script>
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+</body>
+</html>

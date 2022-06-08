@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+  <script src="script.js"></script>
+  <div class="w3-sidebar w3-bar-block w3-collapse w3-card w3-animate-left w3-brown" style="width:200px;" id="mySidebar">
+  <button class="w3-bar-item w3-button w3-large w3-hide-large" onclick="w3_close()">Fechar &times;</button>
+  <a href="/entrar.html" class="w3-bar-item w3-button">Entrar</a>
+  <a href="/cadastrar.html" class="w3-bar-item w3-button">Cadastrar</a>
+  <a href="/sobre.html" class="w3-bar-item w3-button">Sobre</a>
+</div>
+
+<div class="w3-main" style="margin-left:200px">
+<div class="w3-pink">
+  <button class=" w3-pink w3-button w3-xlarge w3-hide-large" onclick="w3_open()">&#9776;</button>
+  <a href="/index.html"><button class="w3-xlarge w3-button">Home</button></a>
+</div>
+  
+  <div class="w3-row">
+  <div class="w3-col l3 m2 s2 w3-center">
+    <p></p>
+  </div>
+  <div class="w3-col l6 m8 s8 w3-center">
+    <div class="w3-container w3-mobile margin2 w3-hover-shadow w3-round-large w3-brown">
+<form action="#" onsubmit="validarCadastro(); return false">
+  <label for="name">Nome Completo:</label><br>
+  <input type="text" id="nome" name="nome" placeholder="Nome.."><br><br>
+  <label for="email">E-mail:</label><br>
+  <input type="text" id="email" name="email" placeholder="E-mail.."><br><br>
+  <label for="telefone">Telefone:</label><br>
+  <input type="text" id="telefone" name="telefone" placeholder="Telefone.."><br><br>
+  <label for="endereco">Endereço:</label><br>
+  <input type="text" id="endereco" name="endereco" placeholder="Endereço.."><br><br>
+  <label for="CriarSenha">Criar Senha:</label><br>
+  <input type="text" id="criarsenha" name="criarsenha" placeholder="Senha.."><br><br>
+  <label for="ConfirmarSenha">Confirmar Senha:</label><br>
+  <input type="text" id="confirmarsenha" name="confirmarsenha" placeholder="Confirmar Senha.."><br><br>
+  <p id="confirmacao"></p>
+  <input type="submit" value="Cadastrar">
+</form> 
+        </div>
+    <a href="/entrar.html"><button class="w3-mobile margin3 w3-button w3-pink w3-round-large" style="width:90%">
+        <h1 class="p1" style="font-size:3vw">Ja tem uma conta? Entre!</h1></button></a>
+  </div>
+    <div class="w3-col l3 m2 s2 w3-center">
+      <p></p>
+  </div>
+</div>
+</div>
+   
+</div>
+
+<script>
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+</body>
+</html>
