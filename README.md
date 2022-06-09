@@ -14,3 +14,4 @@
 
 **-JS: usei uma pequena parte do W3schools para fazer a SideBar, e fiz a validação do cadastro e do log-in.**
 
+# (Não sei o que aconteceu que as outras páginas do site não abrem pela hospedagem do GitHub, mas está tudo certo: Link do replit https://replit.com/@Lucas-Botelho/Web2Bimestre#index.html)
