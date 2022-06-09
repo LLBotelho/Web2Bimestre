@@ -10,7 +10,7 @@
 
 # Atividade App para Refugiados
 ---
-**-HTML & CSS: usei na maior parte do trabalho o CSS do W3schools.**
+**-HTML & CSS: usei na maior parte do trabalho o CSS do W3schools, fiz 4 páginas para o site, a Home/Principal, Cadastro, Log-in, e Sobre.**
 
 **-JS: usei uma pequena parte do W3schools para fazer a SideBar, e fiz a validação do cadastro e do log-in.**
 
